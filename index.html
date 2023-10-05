@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Cambia al pasar por arriba-->
+    <h1>Funcion: Cambia al pasar por arriba</h1>
+    <button class="pasa-arriba" onmouseover="ensima(this)" onmouseleave="fuera(this)">
+        <h3>PASA POR ARRIBA</h3>
+    </button>
+    <h2 id="cambia">MAL, NO ESTAS ARRIBA DEL BOTON >:c</h2>
+
+
+    <!--Contador de likes-->
+
+    <h1>Funcion: Aumenta la cantidad de likes</h1>
+
+    <div class="flex">
+        <button class="btn" onclick="disminuirlikes()">
+            <h3>DisLike</h3>
+        </button>
+        <h1 id="contador">0</h1>
+        <button class="btn" onclick="aumentarlikes()">
+            <h3>Like</h3>
+        </button>
+    </div>
+
+    <h1>Funcion: Alterno a los likes</h1>
+
+    <div class="flex">
+        <h1 id="contador-dislikes">0</h1>
+        <button class="btnn" onclick="disminuirlikess()">
+            <h3>← DisLikes</h3>
+        </button>
+        <h1 id="contadorr">0</h1>
+        <button class="btnn" onclick="aumentarlikess()">
+            <h3>Likes →</h3>
+        </button>
+        <h1 id="contador-likes">0</h1>
+    </div>
+
+    <!--Esperar cambio-->
+
+    <h1>Funcion: Espera 2 segundos</h1>
+    <button class="pasa-arriba" onclick="cambio()">
+        <h3>Dame click y espera :3</h3>
+    </button>
+    <h2 id="wait">Dale click al boton :3</h2>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

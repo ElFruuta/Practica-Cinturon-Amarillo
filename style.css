@@ -1,0 +1,41 @@
+.pasa-arriba {
+    border: none;
+    background-color: red;
+    color: white;
+}
+.estas-arriba {
+    background-color: aqua;
+}
+.estas-arriba-yei {
+    background-color: yellow;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+#contador {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#contadorr {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1vw;
+}
+.btnn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.gracias {
+    background-color: black;
+    color: white;
+}
